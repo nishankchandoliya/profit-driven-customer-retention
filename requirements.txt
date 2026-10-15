@@ -1,0 +1,12 @@
+# Tested with Python 3.12
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+xgboost==3.0.5
+shap==0.48.0
+matplotlib==3.10.0
+seaborn==0.13.2
+optuna==4.5.0
+joblib==1.6.0
+jupyter
+pytest==8.4.2

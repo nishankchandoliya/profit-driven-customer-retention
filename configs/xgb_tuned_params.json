@@ -1,0 +1,18 @@
+{
+  "params": {
+    "n_estimators": 900,
+    "learning_rate": 0.015615,
+    "max_depth": 7,
+    "min_child_weight": 2.993441,
+    "subsample": 0.754864,
+    "colsample_bytree": 0.623293,
+    "reg_lambda": 0.893825,
+    "gamma": 1.624313
+  },
+  "cv_auc": 0.69623,
+  "original_settings_cv_auc": 0.69316,
+  "n_trials": 30,
+  "folds": 3,
+  "seed": 42,
+  "minutes": 26.8
+}

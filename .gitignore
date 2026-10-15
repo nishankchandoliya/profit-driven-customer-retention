@@ -1,0 +1,33 @@
+# Data (provided by the course, not shared publicly)
+data/telecom
+*.csv
+# ...except the tuning and feature check results, which have no customer data
+!outputs/tuning/optuna_trials.csv
+!outputs/features/feature_groups_cv.csv
+
+# Original course files and old versions kept locally, not part of the repo
+bin/
+
+# Trained models and customer scores (made by scripts/train.py and scripts/score_customers.py from course data)
+models/
+outputs/scores/
+
+# Course certificates (personal documents with signatures). Remove this line to publish them.
+certificates/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
